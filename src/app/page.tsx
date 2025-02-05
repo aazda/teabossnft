@@ -117,7 +117,7 @@ export default function NFTLandingPage() {
 
       {/* Footer */}
       <footer className="text-center py-6">
-        <p>© 2025 teaBOSS. All Rights Reserved.</p>
+        <p>© 2025 Built with ❤️ by Aazda.</p>
       </footer>
     </div>
   )
