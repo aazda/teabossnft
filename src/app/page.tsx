@@ -5,7 +5,6 @@ import { getContractMetadata } from "thirdweb/extensions/common"
 import { createThirdwebClient, getContract } from "thirdweb";
 import { defineChain } from "thirdweb/chains";
 import { claimTo } from "thirdweb/extensions/erc721"
-import Link from "next/link"
 
 const client = createThirdwebClient({
   clientId: "923890477f58245d479a38743c65f25f",
