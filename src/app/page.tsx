@@ -94,7 +94,7 @@ export default function NFTLandingPage() {
         </section>
 
         {/* Features and Benefits Section */}
-        <section className="container mx-auto px-4 py-3">
+        <section className="container mx-auto px-4 py-0">
           <h2 className="text-3xl font-bold mb-8 text-center">Holder Benefits</h2>
           <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {[
