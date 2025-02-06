@@ -48,7 +48,7 @@ export default function NFTLandingPage() {
           <div className="flex flex-col md:flex-row items-center gap-5 max-w-4xl">
             {/* Content */}
             <div className="w-full md:w-2/3 space-y-4">
-              <h1 className="text-3xl md:text-4xl font-bold">Exclusive Tea NFT Collection</h1>
+              <h1 className="text-3xl md:text-4xl font-bold">Exclusive teaBOSS NFT Collection</h1>
               <p className="text-lg">
                 Unique digital art by renowned artists. Secure blockchain ownership. Join our exclusive community and
                 unlock special benefits.
@@ -93,7 +93,7 @@ export default function NFTLandingPage() {
           </div>
         </section>
         {/* Features and Benefits Section */}
-        <section className="container mx-auto px-4 py-5">
+        <section className="container mx-auto px-4 py-3">
           <h2 className="text-3xl font-bold mb-3 text-center">Holder Benefits</h2>
           <div className="grid md:grid-cols-3 gap-3 max-w-6xl mx-auto">
             {[
