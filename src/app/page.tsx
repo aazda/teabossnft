@@ -105,7 +105,7 @@ export default function NFTLandingPage() {
             ].map((benefit, index) => (
               <div key={index} className="bg-[#1d1d35] p-6 rounded-lg border border-[#98ff99]">
                 <h3 className="text-xl font-bold mb-2">{benefit.title}</h3>
-                <p>{benefit.description}</p>
+                {benefit.description}
               </div>
             ))}
           </div>
@@ -117,7 +117,7 @@ export default function NFTLandingPage() {
 
       {/* Footer */}
       <footer className="text-center py-6">
-        <p>© 2025 Built with ❤️ by Aazda.</p>
+        <p>© 2025 Built with ❤️ by Aazda</p>
       </footer>
     </div>
   )
