@@ -94,7 +94,7 @@ export default function NFTLandingPage() {
         </section>
 
         {/* Features and Benefits Section */}
-        <section className="container mx-auto px-3 py-2">
+        <section className="container mx-auto px-4 py-6">
           <h2 className="text-3xl font-bold mb-8 text-center">Holder Benefits</h2>
           <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {[
@@ -103,7 +103,7 @@ export default function NFTLandingPage() {
               { title: "Future Drops", description: "Priority access to future NFT releases" },
               
             ].map((benefit, index) => (
-              <div key={index} className="bg-[#1d1d35] p-2 rounded-lg border border-[#98ff99]">
+              <div key={index} className="bg-[#1d1d35] p-4 rounded-lg border border-[#98ff99]">
                 <h3 className="text-xl font-bold mb-2">{benefit.title}</h3>
                 {benefit.description}
               </div>
