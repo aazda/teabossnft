@@ -95,7 +95,7 @@ export default function NFTLandingPage() {
         {/* Features and Benefits Section */}
         <section className="container mx-auto px-4 py-5">
           <h2 className="text-3xl font-bold mb-8 text-center">Holder Benefits</h2>
-          <div className="grid md:grid-cols-3 gap-5 max-w-6xl mx-auto">
+          <div className="grid md:grid-cols-3 gap-3 max-w-6xl mx-auto">
             {[
               { title: "Exclusive Events", description: "Access to VIP art shows and gallery openings" },
               { title: "Community Access", description: "Join our private Discord channel for collectors" },
