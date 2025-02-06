@@ -46,15 +46,6 @@ export default function NFTLandingPage() {
         {/* Hero Section */}
         <section className="container mx-auto px-4 py-5 flex items-center justify-center">
           <div className="flex flex-col md:flex-row items-center gap-8 max-w-4xl">
-            {/* Content */}
-            <div className="w-full md:w-2/3 space-y-4">
-              <h1 className="text-3xl md:text-4xl font-bold">Exclusive NFT Collection</h1>
-              <p className="text-lg">
-                Unique digital art by renowned artists. Secure blockchain ownership. Join our exclusive community and
-                unlock special benefits.
-              </p>
-
-            </div>
             {/* NFT Image */}
             <div className="w-full md:w-1/3">
               <div className="relative w-full aspect-square rounded-lg overflow-hidden">
@@ -75,7 +66,14 @@ export default function NFTLandingPage() {
                   boxShadow: "0px 4px 6px -1px rgba(0, 0, 0, 0.1)",
                 }}
                 />
-                              {/* <Button size="lg" className="bg-[#98ff99] text-[#121221] hover:bg-[#7aff7c]">
+                            {/* Content */}
+            <div className="w-full md:w-2/3 space-y-4">
+              <h1 className="text-3xl md:text-4xl font-bold">Exclusive NFT Collection</h1>
+              <p className="text-lg">
+                Unique digital art by renowned artists. Secure blockchain ownership. Join our exclusive community and
+                unlock special benefits.
+              </p>
+              {/* <Button size="lg" className="bg-[#98ff99] text-[#121221] hover:bg-[#7aff7c]">
                 Claim Your NFT
               </Button> */}
               <TransactionButton
@@ -89,6 +87,7 @@ export default function NFTLandingPage() {
                   >
                     Claim NFT
                   </TransactionButton>
+            </div>
               </div>
             </div>
           </div>
