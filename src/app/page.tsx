@@ -44,7 +44,7 @@ export default function NFTLandingPage() {
       {/* Main Content */}
       <main className="flex-grow">
         {/* Hero Section */}
-        <section className="container mx-auto px-4 py-12 flex items-center justify-center">
+        <section className="container mx-auto px-4 py-5 flex items-center justify-center">
           <div className="flex flex-col md:flex-row items-center gap-8 max-w-4xl">
             {/* Content */}
             <div className="w-full md:w-2/3 space-y-4">
