@@ -116,7 +116,15 @@ export default function NFTLandingPage() {
 
       {/* Footer */}
       <footer className="text-center py-6">
-        <p>© 2025 Built with ❤️ by Aazda</p>
+        <p>© 2025 Built with
+        <span className="text-[#98ff99]">❤️</span>
+          by
+          <a 
+            className="text-[#98ff99] hover:text-[#98ff99]/80"
+          >
+            Aazda
+          </a>
+        </p>
       </footer>
     </div>
   )
