@@ -115,7 +115,7 @@ export default function NFTLandingPage() {
       <hr className="border-t border-[#98ff99] w-full" />
 
       {/* Footer */}
-      <footer className="text-center py-6">
+      <footer className="text-center py-6 text-gray-400">
         <p>© 2025 Built with
         <span className="text-[#98ff99]">❤️</span>
           by
