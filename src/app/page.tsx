@@ -45,7 +45,7 @@ export default function NFTLandingPage() {
       <main className="flex-grow">
         {/* Hero Section */}
         <section className="container mx-auto px-4 py-5 flex items-center justify-center">
-          <div className="flex flex-col md:flex-row items-center gap-8 max-w-4xl">
+          <div className="flex flex-col md:flex-row items-center gap-3 max-w-4xl">
             {/* Content */}
             <div className="w-full md:w-2/3 space-y-4">
               <h1 className="text-3xl md:text-4xl font-bold">Exclusive NFT Collection</h1>
@@ -94,7 +94,7 @@ export default function NFTLandingPage() {
         </section>
         {/* Features and Benefits Section */}
         <section className="container mx-auto px-4 py-5">
-          <h2 className="text-3xl font-bold mb-1 text-center">Holder Benefits</h2>
+          <h2 className="text-3xl font-bold mb-3 text-center">Holder Benefits</h2>
           <div className="grid md:grid-cols-3 gap-3 max-w-6xl mx-auto">
             {[
               { title: "Exclusive Events", description: "Access to VIP art shows and gallery openings" },
