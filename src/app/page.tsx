@@ -68,7 +68,7 @@ export default function NFTLandingPage() {
                 />
                             {/* Content */}
             <div className="w-full md:w-2/3 space-y-4">
-              <h1 className="text-3xl md:text-4xl font-bold">Exclusive NFT Collection</h1>
+              <h1 className="text-15xl md:text-4xl font-bold">Exclusive NFT Collection</h1>
               <p className="text-lg">
                 Unique digital art by renowned artists. Secure blockchain ownership. Join our exclusive community and
                 unlock special benefits.
