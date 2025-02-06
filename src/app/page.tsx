@@ -48,7 +48,7 @@ export default function NFTLandingPage() {
           <div className="flex flex-col md:flex-row items-center gap-5 max-w-4xl">
             {/* Content */}
             <div className="w-full md:w-2/3 space-y-4">
-              <h1 className="text-3xl md:text-4xl font-bold">Exclusive NFT Collection</h1>
+              <h1 className="text-3xl md:text-4xl font-bold">Exclusive ASSAM-TEA NFT Collection</h1>
               <p className="text-lg">
                 Unique digital art by renowned artists. Secure blockchain ownership. Join our exclusive community and
                 unlock special benefits.
