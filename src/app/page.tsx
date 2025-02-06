@@ -103,7 +103,7 @@ export default function NFTLandingPage() {
               { title: "Future Drops", description: "Priority access to future NFT releases" },
               
             ].map((benefit, index) => (
-              <div key={index} className="bg-[#1d1d35] p-6 rounded-lg border border-[#98ff99]">
+              <div key={index} className="bg-[#1d1d35] p-2 rounded-lg border border-[#98ff99]">
                 <h3 className="text-xl font-bold mb-2">{benefit.title}</h3>
                 {benefit.description}
               </div>
@@ -116,7 +116,7 @@ export default function NFTLandingPage() {
       <hr className="border-t border-[#98ff99] w-full" />
 
       {/* Footer */}
-      <footer className="text-center py-12">
+      <footer className="text-center py-6">
         <p>© 2025 Built with ❤️ by Aazda</p>
       </footer>
     </div>
