@@ -44,7 +44,7 @@ export default function NFTLandingPage() {
       {/* Main Content */}
       <main className="flex-grow">
         {/* Hero Section */}
-        <section className="container mx-auto px-4 py-6 flex items-center justify-center">
+        <section className="container mx-auto px-4 py-12 flex items-center justify-center">
           <div className="flex flex-col md:flex-row items-center gap-8 max-w-4xl">
             {/* Content */}
             <div className="w-full md:w-2/3 space-y-4">
@@ -94,7 +94,7 @@ export default function NFTLandingPage() {
         </section>
 
         {/* Features and Benefits Section */}
-        <section className="container mx-auto px-4 py-2">
+        <section className="container mx-auto px-3 py-2">
           <h2 className="text-3xl font-bold mb-8 text-center">Holder Benefits</h2>
           <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {[
@@ -116,7 +116,7 @@ export default function NFTLandingPage() {
       <hr className="border-t border-[#98ff99] w-full" />
 
       {/* Footer */}
-      <footer className="text-center py-6">
+      <footer className="text-center py-12">
         <p>© 2025 Built with ❤️ by Aazda</p>
       </footer>
     </div>
