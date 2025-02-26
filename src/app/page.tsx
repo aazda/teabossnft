@@ -5,10 +5,19 @@ import { getContractMetadata } from "thirdweb/extensions/common"
 import { createThirdwebClient, getContract } from "thirdweb";
 import { defineChain } from "thirdweb/chains";
 import { claimTo } from "thirdweb/extensions/erc721"
+import { createWallet } from "thirdweb/wallets";
 
 const client = createThirdwebClient({
   clientId: "923890477f58245d479a38743c65f25f",
 });
+
+const wallets = [
+  createWallet("io.metamask"),
+  createWallet("com.coinbase.wallet"),
+  createWallet("me.rainbow"),
+  createWallet("io.rabby"),
+  createWallet("io.zerion.wallet"),
+];
 
 const contract = getContract({
   client,
@@ -29,13 +38,14 @@ export default function NFTLandingPage() {
       <nav className="max-w-7xl mx-auto w-full flex justify-between items-center p-6">
         <div className="text-2xl font-bold text-[#98ff99]">teaBOSS</div>
         {/*<Button className="bg-[#98ff99] text-black hover:bg-[#7aff7c]">Connect Wallet</Button> */}
-        <ConnectButton 
-          client={client}
-          connectButton={{
-            label: "Connect",
-            className: "bg-[#98ff99] hover:bg-[#98ff99]/80",
-          }}
-        />
+        <ConnectButton
+      client={client}
+      wallets={wallets}
+      connectModal={{
+        size: "compact",
+        showThirdwebBranding: false,
+      }}
+    />
       </nav>
 
       {/* Dividing line between header and content */}
