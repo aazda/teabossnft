@@ -3,12 +3,11 @@
 import { ConnectButton, MediaRenderer, TransactionButton, useReadContract, useActiveAccount } from "thirdweb/react"
 import { getContractMetadata } from "thirdweb/extensions/common"
 import { createThirdwebClient, getContract } from "thirdweb";
-import { defineChain } from "thirdweb/chains";
 import { claimTo } from "thirdweb/extensions/erc721"
 import { createWallet } from "thirdweb/wallets";
 
 const client = createThirdwebClient({
-  clientId: "923890477f58245d479a38743c65f25f",
+  clientId: "a7ff0eb603e6942d48ca89c9ef7e5d05",
 });
 
 const wallets = [
@@ -19,10 +18,23 @@ const wallets = [
   createWallet("io.zerion.wallet"),
 ];
 
+const teaSepolia = {
+  id: 10218,
+  name: "Tea Sepolia",
+  nativeCurrency: {
+    name: "Tea Sepolia",
+    symbol: "TEA",
+    decimals: 18,
+  },
+  rpc: "https://tea-sepolia.g.alchemy.com/public",
+  rpcUrls: ["https://tea-sepolia.g.alchemy.com/public"],
+  blockExplorers: [{ name: "Tea Explorer", url: "https://sepolia.tea.xyz/" }],
+};
+
 const contract = getContract({
   client,
-  chain: defineChain(93384),
-  address: "0xD6224c1E5e93383d62796A8939cde02e8F4FFcaF",
+  chain: teaSepolia, // Pastikan menggunakan chain yang didefinisikan
+  address: "0xC2871db7D8BCe9a57ABF59E70D833BdCDfe35Ef0",
 });
 
 export default function NFTLandingPage() {
